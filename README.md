@@ -4,7 +4,7 @@ This repository contains the implementation of my **MSc Final Project (Universit
 
 The aim was to explore deep learning approaches for predicting cryptocurrency prices and compare their effectiveness in single, two-layer, and three-layer architectures.
 
-# 📌 Project Overview
+## 📌 Project Overview
 
 Objective: Identify the most efficient and accurate deep learning model for short-term Bitcoin price prediction.
 
@@ -24,7 +24,7 @@ Are bidirectional RNNs more effective than standard ones?
 
 Does increasing hidden units improve performance?
 
-# 🗂 Dataset
+## 🗂 Dataset
 
 The dataset consists of Bitcoin daily price data with the following features:
 
@@ -44,7 +44,7 @@ Market Cap – total market capitalization
 
 Data source: CoinMarketCap Historical Data.
 
-# ⚙️ Methodology
+## ⚙️ Methodology
 
 Data Preprocessing:
 
@@ -72,7 +72,7 @@ Root Mean Squared Error (RMSE)
 
 Mean Absolute Percentage Error (MAPE)
 
-# 📊 Results
+## 📊 Results
 
 Best Model: Bidirectional GRU (2-layer, sequential) → MAPE: 5.55%
 
@@ -84,7 +84,7 @@ Adding more than two layers (e.g., 3-layer) reduced performance.
 
 Increasing hidden units improved accuracy but increased training time.
 
-📌 Conclusion: GRUs outperform LSTMs, and two-layer bidirectional GRUs gave the most accurate predictions.
+#### 📌 Conclusion: GRUs outperform LSTMs, and two-layer bidirectional GRUs gave the most accurate predictions.
 
 Run Jupyter Notebook:
 
@@ -93,7 +93,7 @@ jupyter notebook
 
 Open the provided notebook (crypto_prediction.ipynb) to explore preprocessing, model building, training, and evaluation.
 
-# 📦 Dependencies
+## 📦 Dependencies
 
 Python 3.7+
 
@@ -110,7 +110,7 @@ TensorFlow / Keras
 Jupyter Notebook
 
 
-# 🔮 Future Work
+## 🔮 Future Work
 
 Hyperparameter tuning (optimizers, batch size, time steps)
 
@@ -122,6 +122,6 @@ Extend to other cryptocurrencies (ETH, LTC, BNB, XMR)
 
 Integrate into an automated trading bot
 
-📖 Reference
+#### 📖 Reference
 
 This project was submitted as part of the MSc Data Science and Analytics program at the University of Hertfordshire (2021).
