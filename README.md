@@ -1,17 +1,16 @@
 # 📈 RNN-crypto-price-prediction
 
-This repository contains the implementation of my MSc Final Project (University of Hertfordshire, 2021) on Bitcoin price prediction using Recurrent Neural Networks (RNNs), specifically LSTM and GRU models in sequential, parallel, and bidirectional architectures.
+This repository contains the implementation of my **MSc Final Project (University of Hertfordshire, 2021)** on Bitcoin price prediction using Recurrent Neural Networks (RNNs), specifically LSTM and GRU models in sequential, parallel, and bidirectional architectures.
 
 The aim was to explore deep learning approaches for predicting cryptocurrency prices and compare their effectiveness in single, two-layer, and three-layer architectures.
 
-📌 Project Overview
+# 📌 Project Overview
 
 Objective: Identify the most efficient and accurate deep learning model for short-term Bitcoin price prediction.
 
 Techniques: LSTM, GRU, Bidirectional RNNs, Sequential & Parallel architectures.
 
-Dataset: Bitcoin historical data from CoinMarketCap
-.
+Dataset: Bitcoin historical data from CoinMarketCap.
 
 Frameworks: Python, Keras, TensorFlow, scikit-learn.
 
@@ -25,7 +24,7 @@ Are bidirectional RNNs more effective than standard ones?
 
 Does increasing hidden units improve performance?
 
-🗂 Dataset
+# 🗂 Dataset
 
 The dataset consists of Bitcoin daily price data with the following features:
 
@@ -43,10 +42,9 @@ Volume – total trading volume
 
 Market Cap – total market capitalization
 
-Data source: CoinMarketCap Historical Data
-.
+Data source: CoinMarketCap Historical Data.
 
-⚙️ Methodology
+# ⚙️ Methodology
 
 Data Preprocessing:
 
@@ -74,7 +72,7 @@ Root Mean Squared Error (RMSE)
 
 Mean Absolute Percentage Error (MAPE)
 
-📊 Results
+# 📊 Results
 
 Best Model: Bidirectional GRU (2-layer, sequential) → MAPE: 5.55%
 
@@ -88,15 +86,6 @@ Increasing hidden units improved accuracy but increased training time.
 
 📌 Conclusion: GRUs outperform LSTMs, and two-layer bidirectional GRUs gave the most accurate predictions.
 
-🚀 Installation & Usage
-
-Clone the repository and install dependencies:
-
-git clone https://github.com/your-username/crypto-price-prediction.git
-cd crypto-price-prediction
-pip install -r requirements.txt
-
-
 Run Jupyter Notebook:
 
 jupyter notebook
@@ -104,7 +93,7 @@ jupyter notebook
 
 Open the provided notebook (crypto_prediction.ipynb) to explore preprocessing, model building, training, and evaluation.
 
-📦 Dependencies
+# 📦 Dependencies
 
 Python 3.7+
 
@@ -121,7 +110,7 @@ TensorFlow / Keras
 Jupyter Notebook
 
 
-🔮 Future Work
+# 🔮 Future Work
 
 Hyperparameter tuning (optimizers, batch size, time steps)
 
